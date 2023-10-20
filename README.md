@@ -1,7 +1,6 @@
-# numeric_sol_heat_eq
 # Solution of the initial boundary value problem for the heat equation
 
-The initial boundary value problem for a nonlinear one-dimensional heat equation with a source is considered:
+## The initial boundary value problem for a nonlinear one-dimensional heat equation with a source is considered:
 ```math
 \partial u/ \partial t = \partial / \partial x (k(u) \partial u / \partial x) + f(t,x,u),  x \in (0,1), t > 0;  
 u(0, x) = \phi(x), x \in [0,1];  
